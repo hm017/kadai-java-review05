@@ -40,9 +40,9 @@ public class Review05 {
 
             // 7. 結果を表示する
             while (rs.next()) {
-                // Name列の値を取得
-                String name = rs.getString("Name");
-                // Population列の値を取得
+                // name列の値を取得
+                String name = rs.getString("name");
+                // age列の値を取得
                 int age = rs.getInt("age");
 
                 // 取得した値を表示
